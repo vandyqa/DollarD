@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17329" started-at="2021-01-29T07:23:48Z" finished-at="2021-01-29T07:24:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17329" started-at="2021-01-29T07:23:48Z" finished-at="2021-01-29T07:24:05Z">
+      <class name="DD.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:DD.HomePage@1b9a632]" name="initialize" is-config="true" duration-ms="6281" started-at="2021-01-29T07:23:48Z" finished-at="2021-01-29T07:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DD.HomePage@1b9a632]" name="basePageNavigation" duration-ms="4954" started-at="2021-01-29T07:23:54Z" data-provider="getData" finished-at="2021-01-29T07:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srikanthtesting100@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User successfully logged in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:DD.HomePage@1b9a632]" name="teardown" is-config="true" duration-ms="419" started-at="2021-01-29T07:24:05Z" finished-at="2021-01-29T07:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- DD.HomePage -->
+      <class name="DD.validateNavigationAB">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:DD.validateNavigationAB@1d250c6]" name="basePageNavigation" duration-ms="5582" started-at="2021-01-29T07:23:59Z" finished-at="2021-01-29T07:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- DD.validateNavigationAB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+22:35:39.470 [main] INFO  resources.UtilityBase - successful login
+15:20:17.490 [main] INFO  resources.UtilityBase - successful login
+15:22:02.124 [main] INFO  resources.UtilityBase - Driver is initialized
+15:22:13.382 [main] INFO  resources.UtilityBase - Website is opened
+15:22:16.230 [main] INFO  resources.UtilityBase - Clicked on sign
+15:22:16.694 [main] INFO  resources.UtilityBase - Entered the credentials to sign in
+15:22:18.643 [main] INFO  resources.UtilityBase - Clicked on sign in button

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-02T15:54:06 CST" name="Suite" finished-at="2021-02-02T15:55:02 CST" duration-ms="55749">
+    <groups>
+    </groups>
+    <test started-at="2021-02-02T15:54:06 CST" name="Test" finished-at="2021-02-02T15:55:02 CST" duration-ms="55749">
+      <class name="DD.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:DD.HomePage@3c0fae6c]" started-at="2021-02-02T15:54:06 CST" name="initialize" finished-at="2021-02-02T15:54:10 CST" duration-ms="3994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DD.HomePage@3c0fae6c]" started-at="2021-02-02T15:54:17 CST" name="basePageNavigation" data-provider="getData" finished-at="2021-02-02T15:54:25 CST" duration-ms="8183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srikanthtesting100@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User successfully logged in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:DD.HomePage@3c0fae6c]" started-at="2021-02-02T15:55:02 CST" name="teardown" finished-at="2021-02-02T15:55:02 CST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- DD.HomePage -->
+      <class name="DD.LandAddressBook">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:DD.LandAddressBook@4c168660]" started-at="2021-02-02T15:54:10 CST" name="initialize" finished-at="2021-02-02T15:54:17 CST" duration-ms="6327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:DD.LandAddressBook@4c168660]" started-at="2021-02-02T15:54:34 CST" name="basePageNavigation" data-provider="getData" finished-at="2021-02-02T15:54:37 CST" duration-ms="3347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srikanthtesting100@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User successfully logged in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="myaddressbookdropdown()[pri:2, instance:DD.LandAddressBook@4c168660]" started-at="2021-02-02T15:54:37 CST" name="myaddressbookdropdown" finished-at="2021-02-02T15:54:39 CST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myaddressbookdropdown -->
+        <test-method signature="FormMyAddressBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:DD.LandAddressBook@4c168660]" started-at="2021-02-02T15:54:39 CST" name="FormMyAddressBook" data-provider="getdata1" finished-at="2021-02-02T15:54:41 CST" duration-ms="2374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Company]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bandera St]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Austin]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[512-578-9877]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[78681]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormMyAddressBook -->
+        <test-method signature="ValidateSaveChanges()[pri:4, instance:DD.LandAddressBook@4c168660]" started-at="2021-02-02T15:54:41 CST" name="ValidateSaveChanges" finished-at="2021-02-02T15:54:41 CST" duration-ms="46" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[×
+Alert! Not a valid address.]> but was:<[Address book form has been created]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[×
+Alert! Not a valid address.]> but was:<[Address book form has been created]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at DD.LandAddressBook.ValidateSaveChanges(LandAddressBook.java:139)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSaveChanges -->
+        <test-method signature="NFormMyAddressBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:DD.LandAddressBook@4c168660]" started-at="2021-02-02T15:54:42 CST" name="NFormMyAddressBook" data-provider="getdata2negative" finished-at="2021-02-02T15:55:02 CST" duration-ms="20067" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Company]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bandera St]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Austin]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[78681]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AUS1S-MKALRA', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\mkalra\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7bd39b8dc87e22e0a517d6b2d28b4d46]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AUS1S-MKALRA', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\mkalra\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7bd39b8dc87e22e0a517d6b2d28b4d46
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at DD.LandAddressBook.NFormMyAddressBook(LandAddressBook.java:154)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NFormMyAddressBook -->
+      </class> <!-- DD.LandAddressBook -->
+      <class name="DD.validateNavigationAB">
+        <test-method signature="basePageNavigation()[pri:0, instance:DD.validateNavigationAB@52b56a3e]" started-at="2021-02-02T15:54:25 CST" name="basePageNavigation" finished-at="2021-02-02T15:54:34 CST" duration-ms="8813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- DD.validateNavigationAB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
